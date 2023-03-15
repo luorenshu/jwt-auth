@@ -1,5 +1,5 @@
 {
-    "name": "xmo/jwt-auth",
+    "name": "bonjour/jwt-auth",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -8,15 +8,15 @@
     ],
     "authors": [
         {
-            "name": "xmo",
-            "email": "root@imoi.cn",
+            "name": "bonjour",
+            "email": "1051953562@qq.com",
             "role": "Developer"
         }
     ],
     "description": "jwt-auth Component",
     "autoload": {
         "psr-4": {
-            "Xmo\\JWTAuth\\": "src/"
+            "Bonjour\\JWTAuth\\": "src/"
         }
     },
     "autoload-dev": {
@@ -43,7 +43,7 @@
     "scripts": {},
     "extra": {
         "hyperf": {
-            "config": "Xmo\\JWTAuth\\ConfigProvider"
+            "config": "Bonjour\\JWTAuth\\ConfigProvider"
         }
     }
 }

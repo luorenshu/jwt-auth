@@ -7,11 +7,11 @@ declare(strict_types=1);
  * Time: 1:34 下午
  */
 
-namespace Xmo\JWTAuth;
+namespace Bonjour\JWTAuth;
 
 /**
  * Interface JWTInterface
- * @package Xmo\JWTAuth
+ * @package Bonjour\JWTAuth
  */
 interface JWTInterface
 {

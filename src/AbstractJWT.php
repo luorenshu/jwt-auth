@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Xmo\JWTAuth;
+namespace Bonjour\JWTAuth;
 
 use Hyperf\Contract\ConfigInterface;
-use Xmo\JWTAuth\Exception\JWTException;
-use Xmo\JWTAuth\Util\JWTUtil;
+use Bonjour\JWTAuth\Exception\JWTException;
+use Bonjour\JWTAuth\Util\JWTUtil;
 use Psr\Container\ContainerInterface;
 
 /**
- * https://gitee.com/xmo/jwt-auth
+ * https://gitee.com/Bonjour/jwt-auth
  * 原作者 liyuzhao
- * 现维护者：xmo
+ * 现维护者：Bonjour
  */
 abstract class AbstractJWT implements JWTInterface
 {

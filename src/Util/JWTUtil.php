@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Xmo\JWTAuth\Util;
+namespace Bonjour\JWTAuth\Util;
 
 use Hyperf\Utils\ApplicationContext;
 use Lcobucci\JWT\Configuration;

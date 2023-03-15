@@ -7,7 +7,7 @@ declare(strict_types=1);
  * Time: 1:59 下午
  */
 
-namespace Xmo\JWTAuth\Util;
+namespace Bonjour\JWTAuth\Util;
 use Carbon\Carbon;
 
 class TimeUtil

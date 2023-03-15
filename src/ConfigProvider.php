@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Xmo\JWTAuth;
+namespace Bonjour\JWTAuth;
 
 class ConfigProvider
 {

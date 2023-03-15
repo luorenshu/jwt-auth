@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Xmo\JWTAuth;
+namespace Bonjour\JWTAuth;
 
 use Hyperf\HttpServer\Contract\RequestInterface;
 use Lcobucci\JWT\Signer;
@@ -9,16 +9,16 @@ use Lcobucci\JWT\Signer\Key;
 use Lcobucci\JWT\Signer\Key\InMemory;
 use Lcobucci\JWT\Token;
 use Lcobucci\JWT\Token\RegisteredClaims;
-use Xmo\JWTAuth\Exception\JWTException;
-use Xmo\JWTAuth\Exception\TokenValidException;
-use Xmo\JWTAuth\Util\JWTUtil;
+use Bonjour\JWTAuth\Exception\JWTException;
+use Bonjour\JWTAuth\Exception\TokenValidException;
+use Bonjour\JWTAuth\Util\JWTUtil;
 use Psr\Container\ContainerInterface;
-use Xmo\JWTAuth\Util\TimeUtil;
+use Bonjour\JWTAuth\Util\TimeUtil;
 
 /**
- * https://gitee.com/xmo/jwt-auth
+ * https://gitee.com/Bonjour/jwt-auth
  * 原作者 liyuzhao
- * 现维护者：xmo
+ * 现维护者：Bonjour
  */
 class JWT extends AbstractJWT
 {

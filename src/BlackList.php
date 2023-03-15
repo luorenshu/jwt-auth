@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
-namespace Xmo\JWTAuth;
+namespace Bonjour\JWTAuth;
 
 use Lcobucci\JWT\Token\Plain;
-use Xmo\JWTAuth\Util\JWTUtil;
-use Xmo\JWTAuth\Util\TimeUtil;
+use Bonjour\JWTAuth\Util\JWTUtil;
+use Bonjour\JWTAuth\Util\TimeUtil;
 use Lcobucci\JWT\Token\RegisteredClaims;
 use Psr\Container\ContainerInterface;
 use Psr\SimpleCache\CacheInterface;
 
 /**
- * https://gitee.com/xmo/jwt-auth
+ * https://gitee.com/Bonjour/jwt-auth
  * 原作者 liyuzhao
- * 现维护者：xmo
+ * 现维护者：Bonjour
  */
 class BlackList extends AbstractJWT
 {

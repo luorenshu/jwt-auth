@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Xmo\JWTAuth\Command;
+namespace Bonjour\JWTAuth\Command;
 
 use Hyperf\Command\Annotation\Command;
 use Hyperf\Command\Command as HyperfCommand;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
-// https://gitee.com/xmo/jwt-auth  原作者 liyuzhao 现维护者：xmo
+// https://gitee.com/Bonjour/jwt-auth  原作者 liyuzhao 现维护者：Bonjour
 
 #[Command]
 class JWTCommand extends HyperfCommand
